@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/login-style.css">
+    <title>이상형 월드컵 - 회원가입</title>
+  </head>
+  <body>
+    <div oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+      <header id="main-header">
+        <a href="./main-index.html"><img class="Logo" src="../image/main-Logo.png" width="100px" height="60px" /></a>
+        <div class="header-menu">
+          <ul class="outer-menu">
+            <a href="./login-page.html">로그인</a>
+          </ul>
+        </div>
+      </header>
+      <!--Navigation-->
+      <nav id="main-navigation">
+        <ul>
+          <li><a href="./main-index.html">메인</a></li>
+          <li><a href="#">랭킹</a></li>
+          <li><a href="#">최신</a></li>
+          <li><a href="#">급상승</a></li>
+          <li><a href="#">월드컵 제작</a></li>
+        </ul>
+      </nav>
+      <!--Section-->
+      <section id="main-section">
+        <div class="space"></div>
+        <form class="login-form">
+          <p>국민투표 이상형 월드컵에 가입하세요.</p>
+          <input id="username" type="text" placeholder="닉네임" maxlength="10" />
+          <input id="userid" type="text" placeholder="아이디" maxlength="18" />
+          <input id="pwd" type="password" placeholder="비밀번호" maxlength="24" />
+          <button type="submit" class="register-button">회원가입</button>
+          <p>이미 계정이 있으신가요?</p>
+          <button type="button" class="login-button" onclick="location.href='./login-page.html'">로그인</button>
+        </form>
+      </section>
+      <!--Footer-->
+      <footer>
+
+      </footer>
+    </div>
+  </body>
+</html>
