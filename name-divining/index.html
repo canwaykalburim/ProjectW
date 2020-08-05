@@ -3,12 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./style.css">
+    <title>이름점 사이트</title>
   </head>
   <body>
     <form action="./result.html" method="GET">
-      <input type="text" placeholder="첫 번째 이름" onkeypress="onlyHg()" name="first" />
-      <input type="text" placeholder="두 번째 이름" onkeypress="onlyHg()" name="second" />
-      <button onclick="getScore()">확인하기</button>
+      <div id="form-bg">
+        <p>이름점</p>
+        <div id="name-input">
+          <input type="text" placeholder="첫 번째 이름" onkeypress="onlyHg()" name="first" />
+          <input type="text" placeholder="두 번째 이름" onkeypress="onlyHg()" name="second" />
+        </div>
+        <button onclick="getScore()">결과보기</button>
+      </div>
     </form>
     <script src="./script.js"></script>
   </body>

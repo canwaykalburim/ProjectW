@@ -80,3 +80,7 @@ function diviningResult() {
   document.getElementById('result').innerHTML =
   `<p>${firstName}님과 ${secondName}의 궁합은 ${result}% 입니다.</p>`
 }
+
+function hrefIndex() {
+  window.location.href='file:///C:/Users/legen/Desktop/소스코드/ProjectW/name-divining/index.html'
+}
